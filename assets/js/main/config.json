@@ -17,12 +17,7 @@
     },
     "about": {
         "introText": "",
-        "googleMaps": "",
-        "about6": "",
-        "flights": {
-            "toDestination": [],
-            "fromDestination": []
-        }
+        "googleMaps": ""
     },
     "itinerary":{
         "active": true
