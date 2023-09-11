@@ -1,0 +1,33 @@
+{
+    "title": "Las Vegas",
+    "start": "13/10/2023 18:00",
+    "end": "23/10/2023 18:00",
+    "currency": "$",
+    "data": {
+    },
+    "visibility": {
+        "color": {
+            "light": "#AF8F8E",
+            "dark": "#8a7171"
+        },
+        "startOnDarkMode": false,
+        "autoVisibility": true,
+        "darkModeStartHour": 18,
+        "darkModeEndHour": 6
+    },
+    "about": {
+        "introText": "",
+        "googleMaps": "",
+        "about6": "",
+        "flights": {
+            "toDestination": [],
+            "fromDestination": []
+        }
+    },
+    "itinerary":{
+        "active": true
+    },
+    "places": {
+        "active": true
+    }
+}
