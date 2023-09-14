@@ -19,7 +19,7 @@ function _start() {
   _loadHyperlinkRanges();
 
   // Visibility - After Load
-  _adjustNightModeButtonPosition();
+  _adjustButtonsPosition();
 }
 
 // ======= LOADERS =======

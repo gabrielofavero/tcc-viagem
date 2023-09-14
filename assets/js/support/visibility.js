@@ -26,7 +26,7 @@ function _loadVisibility() {
           _switchVisibility();
      };
      window.addEventListener("resize", function () {
-          _adjustNightModeButtonPosition();
+          _adjustButtonsPosition();
      });
 }
 
@@ -36,7 +36,7 @@ function _loadVisibilityPasseio() {
      } else {
           _loadLightMode();
      }
-     _adjustNightModeButtonPosition();
+     _adjustButtonsPosition();
      document.getElementById("night-mode").style.display = "block";
      document.getElementById("night-mode").onclick = function () {
           _switchVisibility();
@@ -47,7 +47,7 @@ function _loadNightModeToggleHTML() {
      let icon = _getNightModeIcon();
      var iClass = icon + " night-mode-toggle";
      let id = document.getElementById("night-mode");
-     id.innerHTML = `<i class="${iClass}"></i>`;
+     id.innerHTML = `<i id="night-mode" class="${iClass}></i>`;
 }
 
 function _loadDarkMode() {
@@ -118,7 +118,7 @@ function _switchVisibility() {
      } else {
           _loadDarkMode();
      }
-     _adjustNightModeButtonPosition();
+     _adjustButtonsPosition();
 }
 
 function _autoVisibility() {
@@ -152,14 +152,31 @@ function _changeHeaderImg() {
      } catch (e) { }
 }
 
-function _adjustNightModeButtonPosition() {
-     let el = document.getElementsByClassName("night-mode-toggle");
+function _adjustButtonsPosition() {
+     const nightMode = document.getElementById("night-mode");
+     const first = "10px";
+     const second = "50px";
+     const third = "90px";
+     const fourth = "130px";
+
+     // Padrão: Desktop
+
      switch (_getHTMLpage()) {
           case INDEX:
-               _isOnMobileMode() ? el[0].style.right = "50px" : el[0].style.right = "10px";
+               const config = document.getElementById("config");
+               const share = document.getElementById("share");
+               if (_isOnMobileMode()) {
+                    config.style.right = second;
+                    share.style.right = third;
+                    nightMode.style.right = fourth;
+               } else {
+                    config.style.right = first;
+                    share.style.right = second;
+                    nightMode.style.right = third;
+               }
                break;
           case PASSEIO:
-               el[0].style.right = "50px";
+               el[0].style.right = second;
      }
 }
 
