@@ -10,6 +10,8 @@ function openLightbox(link) {
   lightboxIframe.onload = function () {
     document.getElementById('lightbox').style.display = 'block';
     document.getElementById('night-mode').style.display = 'none';
+    document.getElementById('share').style.display = 'none';
+    document.getElementById('config').style.display = 'none';
     document.getElementById('menu').style.display = 'none';
     document.getElementById('navbar').style.display = 'none';
     _stopLoadingScreen();
@@ -23,6 +25,8 @@ function closeLightbox() {
   document.getElementById('night-mode').style.display = 'block';
   document.getElementById('menu').style.display = 'block';
   document.getElementById('navbar').style.display = 'block';
+  document.getElementById('share').style.display = 'block';
+  document.getElementById('config').style.display = 'block';
   enableScroll();
   window.scrollTo({
     top: savedScrollPosition,

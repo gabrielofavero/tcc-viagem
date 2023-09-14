@@ -176,7 +176,7 @@ function _adjustButtonsPosition() {
                }
                break;
           case PASSEIO:
-               el[0].style.right = second;
+               nightMode.style.right = second;
      }
 }
 
