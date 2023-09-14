@@ -45,7 +45,7 @@ function _loadVisibilityPasseio() {
 
 function _loadNightModeToggleHTML() {
      let icon = _getNightModeIcon();
-     var iClass = icon + " night-mode-toggle";
+     var iClass = icon + " custom-nav-toggle";
      let id = document.getElementById("night-mode");
      id.innerHTML = `<i id="night-mode" class="${iClass}></i>`;
 }

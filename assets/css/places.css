@@ -175,7 +175,7 @@ section {
 }
 
 .close-button,
-.night-mode-toggle {
+.custom-nav-toggle {
   position: absolute;
   right: 10px;
   top: 25px;
@@ -191,12 +191,12 @@ section {
   padding: 5px;
 }
 
-.night-mode-toggle {
+.custom-nav-toggle {
   right: 50px;
 }
 
 .close-button i,
-.night-mode-toggle i {
+.custom-nav-toggle i {
   color: #45505B;
 }
 
