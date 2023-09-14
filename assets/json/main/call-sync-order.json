@@ -1,0 +1,18 @@
+[
+    "_loadMainDataMulti",
+    "_loadPlacesData",
+    "_loadHyperlinks",
+    "_loadMainDataSingle",
+    "_loadTransportationModule",
+    "_loadSumUpSelectBox",
+    "_loadFirstSumUp",
+    "_loadScheduleList",
+    "_getDiaADia",
+    "_loadKeypointsIntegrated",
+    "_loadAbout",
+    "_loadScheduleCalendar",
+    "_loadKeypointsStandAlone",
+    "_loadCostModule",
+    "_loadFlightsModule",
+    "_loadPlaces"
+]

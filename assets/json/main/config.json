@@ -1,0 +1,129 @@
+{
+    "title": "Las Vegas",
+    "start": "13/10/2023 18:00",
+    "currency": "$",
+    "data": {
+        "offlineMode": true,
+        "timeout": 10000,
+        "ranges": {
+            "main": {
+                "R_DIA_A_DIA": "Resumo!L3:R10",
+                "R_VOOS": "Resumo!L13:R19",
+                "R_GASTOS": "Resumo!T3:W17",
+                "R_TOTAL": "Resumo!V21",
+                "R_PREVISOES": "Resumo!Y3:Z22",
+                "R_PROGRAMACAO": [
+                    "Programação!T4:W41",
+                    "Programação!Y4:AB41",
+                    "Programação!AD4:AG41",
+                    "Programação!AI4:AL41",
+                    "Programação!AN:AQ41"
+                ]
+            },
+            "places": {
+                "LV": [
+                    "Las Vegas!B4:BC58"
+                ]
+            },
+            "hyperlinks": {
+                "R_PLACES_HYPERLINK_NAME": {
+                    "LV": [
+                        "Las Vegas!B6:B58",
+                        "Las Vegas!M6:M58",
+                        "Las Vegas!X6:X58",
+                        "Las Vegas!AI6:AI58",
+                        "Las Vegas!AT:AT58"
+                    ]
+                },
+                "R_PLACES_HYPERLINK_INSTAGRAM": {
+                    "LV": [
+                        "Las Vegas!G6:G58",
+                        "Las Vegas!R6:R58",
+                        "Las Vegas!AD:AD58",
+                        "Las Vegas!AN6:AN58",
+                        "Las Vegas!AY6:AY58"
+                    ]
+                },
+                "R_PLACES_HYPERLINK_VIDEO": {
+                    "LV": [
+                        "Las Vegas!H6:H58",
+                        "Las Vegas!S6:S58",
+                        "Las Vegas!AE:AE58",
+                        "Las Vegas!AO6:AO58",
+                        "Las Vegas!AZ6:AZ58"
+                    ]
+                }
+            }
+        }
+    },
+    "visibility": {
+        "color": {
+            "light": "#AF8F8E",
+            "dark": "#8a7171"
+        },
+        "startOnDarkMode": false,
+        "autoVisibility": true,
+        "darkModeStartHour": 18,
+        "darkModeEndHour": 6
+    },
+    "header": {
+        "title": "Las Vegas",
+        "documentsLink": "",
+        "driveLink": "",
+        "attachmentsLink": "",
+        "sheetLink": "",
+        "pptLink": "",
+        "pdfLink": "",
+        "vaccineLink": "",
+        "mapsLink": "",
+        "image": {
+            "active": true,
+            "height": "250px",
+            "light": "assets/img/logo.png",
+            "dark": "assets/img/logo.png"
+        }
+    },
+    "about": {
+        "introText": "",
+        "googleMaps": "https://www.google.com/maps/d/u/0/embed?mid=1M8ctdqWGonk_aWpcZ3coZgKuJoMJrGM&ehbc=2E312F",
+        "about6": "",
+        "flights": {
+            "toDestination": [],
+            "fromDestination": []
+        }
+    },
+    "places": {
+        "active": true,
+        "singleScores": true,
+        "autoSortByScore": true,
+        "description": "",
+        "cities": [
+            {
+                "name": "Las Vegas",
+                "code": "LV",
+                "myMaps": "https://www.google.com/maps/d/u/0/edit?mid=1M8ctdqWGonk_aWpcZ3coZgKuJoMJrGM&usp=sharing",
+                "headers": [
+                    "restaurants",
+                    "snacks",
+                    "nightlife",
+                    "tourism",
+                    "shopping",
+                    "map"
+                ]
+            }
+        ]
+    },
+    "modules": {
+        "about": false,
+        "keypoints": true,
+        "cities": false,
+        "flights": true,
+        "stay": true,
+        "costs": false,
+        "sumUp": false,
+        "scheduleList": false,
+        "scheduleCalendar": true,
+        "places": true,
+        "gallery": false
+    }
+}

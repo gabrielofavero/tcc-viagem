@@ -1,0 +1,838 @@
+[
+    {
+        "range": "Resumo!L3:R10",
+        "majorDimension": "ROWS",
+        "values": [
+            [
+                "-",
+                "Investido",
+                "Valor/Dia",
+                "Gasto",
+                "Gasto/Dia",
+                "Restante",
+                "Rest./Dia"
+            ],
+            [
+                "Alimentação",
+                "$770,00 ",
+                "$70,00 ",
+                "$0,00 ",
+                "$0,00 ",
+                "$770,00 ",
+                "$70,00 "
+            ],
+            [
+                "Turismo",
+                "$330,00 ",
+                "$30,00 ",
+                "$0,00 ",
+                "$0,00 ",
+                "$330,00 ",
+                "$30,00 "
+            ],
+            [
+                "Supermercado",
+                "$500,00 ",
+                "$50,00 ",
+                "$0,00 ",
+                "$0,00 ",
+                "$500,00 ",
+                "$50,00 "
+            ],
+            [
+                "Saídas",
+                "$1.500,00 ",
+                "$150,00 ",
+                "$0,00 ",
+                "$0,00 ",
+                "$1.500,00 ",
+                "$150,00 "
+            ],
+            [
+                "Compras",
+                "$0,00 ",
+                "$0,00 ",
+                "$0,00 ",
+                "$0,00 ",
+                "$0,00 ",
+                "$0,00 "
+            ],
+            [
+                "Total",
+                "$3.100,00 ",
+                "$300,00 ",
+                "$0,00 ",
+                "$0,00 ",
+                "$3.100,00 ",
+                "$300,00 "
+            ],
+            [
+                "Total - Reais",
+                "R$ 15.500,00",
+                "R$ 1.500,00",
+                "R$ 0,00",
+                "R$ 0,00",
+                "R$ 15.500,00",
+                "R$ 1.500,00"
+            ]
+        ]
+    },
+    {
+        "range": "Resumo!L13:R19",
+        "majorDimension": "ROWS",
+        "values": [
+            [
+                "Data",
+                "Rota",
+                "Aeroporto",
+                "Horário",
+                "",
+                "Empresa",
+                "Reserva"
+            ],
+            [
+                "14/10",
+                "BH → SP",
+                "CNF → CHN",
+                "15:20",
+                "16:40",
+                "Latam",
+                "XPSQSE"
+            ],
+            [
+                "14/10",
+                "SP → ATL",
+                "GRU → ATL",
+                "22:50",
+                "7:40",
+                "Latam",
+                "XPSQSE"
+            ],
+            [
+                "15/10",
+                "ATL → LV",
+                "ATL → LAS",
+                "9:59",
+                "11:05",
+                "Delta",
+                "XPSQSE"
+            ],
+            [
+                "24/10",
+                "LV → ATL",
+                "LAS → ATL",
+                "10:45",
+                "17:48",
+                "Delta",
+                "XPSQSE"
+            ],
+            [
+                "24/10",
+                "ATL → SP",
+                "ATL → GRU",
+                "19:00",
+                "5:40",
+                "Delta",
+                "XPSQSE"
+            ],
+            [
+                "25/10",
+                "SP → BH",
+                "GRU → CNF",
+                "8:00",
+                "9:10",
+                "Latam",
+                "XPSQSE"
+            ]
+        ]
+    },
+    {
+        "range": "Resumo!T3:W17",
+        "majorDimension": "ROWS",
+        "values": [
+            [
+                "Compra",
+                "Tipo",
+                "IOF",
+                "Valor (R$)"
+            ],
+            [
+                "Passagem",
+                "Nacional",
+                " ",
+                " R$  24.989,88 "
+            ],
+            [
+                "",
+                "",
+                " "
+            ],
+            [
+                "",
+                "",
+                " "
+            ],
+            [
+                "Hospedagem",
+                "Nacional",
+                " ",
+                "R$ 16.000,00"
+            ],
+            [
+                "",
+                "",
+                " "
+            ],
+            [
+                "",
+                "",
+                " "
+            ],
+            [
+                "",
+                "",
+                " "
+            ],
+            [
+                "",
+                "",
+                " "
+            ],
+            [
+                "",
+                "",
+                " "
+            ],
+            [
+                "",
+                "",
+                " "
+            ],
+            [
+                "",
+                "",
+                " "
+            ],
+            [
+                "",
+                "",
+                " "
+            ],
+            [
+                "",
+                "",
+                " "
+            ],
+            [
+                "",
+                "",
+                " "
+            ]
+        ]
+    },
+    {
+        "range": "Resumo!V21",
+        "majorDimension": "ROWS",
+        "values": [
+            [
+                "R$ 56.489,88"
+            ]
+        ]
+    },
+    {
+        "range": "Resumo!Y3:Z22",
+        "majorDimension": "ROWS",
+        "values": [
+            [
+                "Gasto",
+                "Valor"
+            ],
+            [
+                "Dia-a-Dia",
+                " R$  15.500,00 "
+            ],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [
+                "Total",
+                " R$  15.500,00 "
+            ]
+        ]
+    },
+    {
+        "range": "'Programação'!T4:W41",
+        "majorDimension": "ROWS",
+        "values": [
+            [
+                "Voo: Sexta, 13 de Outubro"
+            ],
+            [
+                "Horário",
+                "Programação",
+                "🚌",
+                "🚗"
+            ],
+            [
+                "Manhã"
+            ],
+            [],
+            [],
+            [
+                "Tarde",
+                "Ida para Confins🚘"
+            ],
+            [
+                "",
+                "15:40 - 16:40: Confins - Congonhas ✈️"
+            ],
+            [
+                "",
+                "Translado para Guarulhos🚘"
+            ],
+            [
+                "Noite",
+                "Aguardar embarque Internacional⏱️"
+            ],
+            [
+                "",
+                "22:50 - 07:40: Guarulhos - Atlanta✈️"
+            ],
+            [],
+            [
+                "Total",
+                "",
+                "$0,00",
+                "$0,00"
+            ],
+            [],
+            [
+                "Las Vegas: Sábado, 14 de Outubro"
+            ],
+            [
+                "Horário",
+                "Programação",
+                "🚌",
+                "🚗"
+            ],
+            [
+                "Manhã",
+                "🛬 07:40 - Pouso em Atlanta (Alfândega)"
+            ],
+            [
+                "",
+                "09:59 - 11:15: Atlanta - Las Vegas✈️"
+            ],
+            [
+                "",
+                "NYNY: Check In / Deixar malas🧳"
+            ],
+            [
+                "Tarde",
+                "Shake Shack 🍔 / The Crack Shack 🍗 / Eataly 🍝"
+            ],
+            [
+                "",
+                "Target 🛒 e Marshalls 👜"
+            ],
+            [
+                "",
+                "The Big Apple Coaster 🎢"
+            ],
+            [
+                "Noite"
+            ],
+            [
+                "",
+                "Katy Perry 🎤"
+            ],
+            [],
+            [
+                "Total",
+                "",
+                "$0,00",
+                "$0,00"
+            ],
+            [],
+            [
+                "Las Vegas: Domingo, 15 de Outubro"
+            ],
+            [
+                "Horário",
+                "Programação",
+                "🚌",
+                "🚗"
+            ],
+            [
+                "Manhã"
+            ],
+            [
+                "",
+                "Wallmart 🛒"
+            ],
+            [],
+            [
+                "Tarde",
+                "Shake Shack 🍔 / The Crack Shack 🍗 / Eataly 🍝"
+            ],
+            [
+                "",
+                "Coke Store, Haus of Gaga"
+            ],
+            [
+                "",
+                "Andar pela Strip (Lojas e Turismo)"
+            ],
+            [
+                "Noite"
+            ],
+            [
+                "",
+                "Best Friend 🥢"
+            ],
+            [
+                "",
+                "👩🏻: Buscar no Aeroporto 👩🏻‍🦰👱🏻‍♂️"
+            ],
+            [
+                "Total",
+                "",
+                "$0,00",
+                "$0,00"
+            ]
+        ]
+    },
+    {
+        "range": "'Programação'!Y4:AB41",
+        "majorDimension": "ROWS",
+        "values": [
+            [
+                "Las Vegas: Segunda, 16 de Outubro"
+            ],
+            [
+                "Horário",
+                "Programação",
+                "🚌",
+                "🚗"
+            ],
+            [
+                "Manhã",
+                "Las Vegas Sign 🎰"
+            ],
+            [
+                "",
+                "Town Square Park"
+            ],
+            [
+                "",
+                "Fergusons Downtown 👜🍽️ / Container Park☀️"
+            ],
+            [
+                "Tarde",
+                "VeggieNation 🥦/ Carsons Kitchen🍴"
+            ],
+            [
+                "",
+                "Freemont / Gold & Silver Pawn Shop 🏪"
+            ],
+            [
+                "",
+                "Haus of Gaga 🎨 e Coke Store 🥤"
+            ],
+            [
+                "Noite",
+                "High Roller 🎡"
+            ],
+            [
+                "",
+                "Bellagio ⛲ e The Volcano 🌋"
+            ],
+            [
+                "",
+                "👩🏻‍🦰👱🏻‍♂️👩🏻: Drag Race Live (21:30)"
+            ],
+            [
+                "Total"
+            ],
+            [],
+            [
+                "Las Vegas: Terça, 17 de Outubro"
+            ],
+            [
+                "Horário",
+                "Programação",
+                "🚌",
+                "🚗"
+            ],
+            [
+                "Manhã",
+                "Alugar Carro 🚗"
+            ],
+            [
+                "",
+                "Grand Canyon ⛰️"
+            ],
+            [],
+            [
+                "Tarde"
+            ],
+            [
+                "",
+                "Grand Canyon ⛰️"
+            ],
+            [
+                "",
+                "Devolver Carro 🚗"
+            ],
+            [
+                "Noite"
+            ],
+            [
+                "",
+                "Descanso / Livre 💤"
+            ],
+            [],
+            [
+                "Total",
+                "",
+                "$0,00",
+                "$0,00"
+            ],
+            [],
+            [
+                "Las Vegas: Quarta, 18 de Outubro"
+            ],
+            [
+                "Horário",
+                "Programação",
+                "🚌",
+                "🚗"
+            ],
+            [
+                "Manhã",
+                "👱🏻‍♂️: Los Angeles (O dia todo)"
+            ],
+            [
+                "",
+                "Las Vegas Premium Outlets South🛍️"
+            ],
+            [],
+            [
+                "Tarde",
+                "Five Guys 🍔 / Panda Express 🥡 / Buffalo Wild Wings 🍗"
+            ],
+            [
+                "",
+                "Bellagio Conservatory & Botanical Gardens 🌳"
+            ],
+            [],
+            [
+                "Noite"
+            ],
+            [
+                "",
+                "Fremont Street 🍺"
+            ],
+            [],
+            [
+                "Total",
+                "",
+                "$0,00",
+                "$0,00"
+            ]
+        ]
+    },
+    {
+        "range": "'Programação'!AD4:AG41",
+        "majorDimension": "ROWS",
+        "values": [
+            [
+                "Las Vegas: Quinta, 19 de Outubro"
+            ],
+            [
+                "Horário",
+                "Programação",
+                "🚌",
+                "🚗"
+            ],
+            [
+                "Manhã",
+                "👱🏻‍♂️: Los Angeles (Chegada de tarde)"
+            ],
+            [
+                "",
+                "🧑🏻‍🦱👱🏻‍♀️👩🏻‍🦰👩🏻: Bass Pro Shops"
+            ],
+            [],
+            [
+                "Tarde",
+                "Chipotle 🌮 / Hattie B’s 🍗 / Lobster ME 🦞"
+            ],
+            [
+                "",
+                "🧑🏻‍🦱👱🏻‍♀️👩🏻‍🦰👩🏻: Collabfest 2023 (BrewDog)"
+            ],
+            [
+                "",
+                "👱🏻‍♂️: Fashion Show Mall / I Love Sugar Martini Bar 🍸"
+            ],
+            [
+                "Noite",
+                "👱🏻‍♂️: Show dos Robôs (18:00)"
+            ],
+            [
+                "",
+                "Fremont Street 🍺"
+            ],
+            [],
+            [
+                "Total",
+                "",
+                "$0,00",
+                "$0,00"
+            ],
+            [],
+            [
+                "Las Vegas: Sexta, 20 de Outubro"
+            ],
+            [
+                "Horário",
+                "Programação",
+                "🚌",
+                "🚗"
+            ],
+            [
+                "Manhã"
+            ],
+            [
+                "",
+                "Town Square Park 🛍️"
+            ],
+            [],
+            [
+                "Tarde",
+                "Sickies Garage Burgers & Brews"
+            ],
+            [
+                "",
+                "👩🏻‍🦰👱🏻‍♂️:  Area 15 / Omega Mart  🎨 (14:00)"
+            ],
+            [],
+            [
+                "Noite"
+            ],
+            [
+                "",
+                "🧑🏻‍🦱👱🏻‍♀️: Adele 🎤"
+            ],
+            [
+                "",
+                "👩🏻‍🦰👱🏻‍♂️👩🏻:  Midnight Dreams (Fantasy Lab) 🎨"
+            ],
+            [
+                "Total",
+                "",
+                "$0,00",
+                "$0,00"
+            ],
+            [],
+            [
+                "Las Vegas: Sábado, 21 de Outubro"
+            ],
+            [
+                "Horário",
+                "Programação",
+                "🚌",
+                "🚗"
+            ],
+            [
+                "Manhã"
+            ],
+            [
+                "",
+                "🧑🏻‍🦱👱🏻‍♀️👩🏻: Forum Shops at Caesars Palace"
+            ],
+            [],
+            [
+                "Tarde",
+                "👩🏻‍🦰👱🏻‍♂️: When We Were Young 🎤"
+            ],
+            [
+                "",
+                "🧑🏻‍🦱👱🏻‍♀️👩🏻: Livre"
+            ],
+            [],
+            [
+                "Noite"
+            ],
+            [
+                "",
+                "👩🏻‍🦰👱🏻‍♂️: When We Were Young 🎤"
+            ],
+            [
+                "",
+                "🧑🏻‍🦱👱🏻‍♀️👩🏻: Livre"
+            ],
+            [
+                "Total",
+                "",
+                "$0,00",
+                "$0,00"
+            ]
+        ]
+    },
+    {
+        "range": "'Programação'!AI4:AL41",
+        "majorDimension": "ROWS",
+        "values": [
+            [
+                "Las Vegas: Domingo, 22 de Outubro"
+            ],
+            [
+                "Horário",
+                "Programação",
+                "🚌",
+                "🚗"
+            ],
+            [
+                "Manhã"
+            ],
+            [
+                "",
+                "🧑🏻‍🦱👱🏻‍♀️: Home Depot"
+            ],
+            [],
+            [
+                "Tarde"
+            ],
+            [
+                "",
+                "👩🏻‍🦰👱🏻‍♂️👩🏻: When We Were Young 🎤"
+            ],
+            [
+                "",
+                "🧑🏻‍🦱👱🏻‍♀️: Miracle Mile Shops 👜"
+            ],
+            [
+                "Noite"
+            ],
+            [
+                "",
+                "👩🏻‍🦰👱🏻‍♂️👩🏻: When We Were Young 🎤"
+            ],
+            [
+                "",
+                "🧑🏻‍🦱👱🏻‍♀️: Livre"
+            ],
+            [
+                "Total",
+                "",
+                "$0,00",
+                "$0,00"
+            ],
+            [],
+            [
+                "Las Vegas: Segunda, 23 de Outubro"
+            ],
+            [
+                "Horário",
+                "Programação",
+                "🚌",
+                "🚗"
+            ],
+            [
+                "Manhã"
+            ],
+            [
+                "",
+                "Arrumar as Malas 🧳"
+            ],
+            [],
+            [
+                "Tarde",
+                "👩🏻‍🦰👱🏻‍♂️👩🏻: Punk Rock Museum 🎨"
+            ],
+            [
+                "",
+                "Livre"
+            ],
+            [],
+            [
+                "Noite",
+                "Best Friend 🥢"
+            ],
+            [
+                "",
+                "Strip 🎰"
+            ],
+            [],
+            [
+                "Total",
+                "",
+                "$0,00",
+                "$0,00"
+            ],
+            [],
+            [
+                "Las Vegas: Terça, 24 de Outubro"
+            ],
+            [
+                "Horário",
+                "Programação",
+                "🚌",
+                "🚗"
+            ],
+            [
+                "Manhã"
+            ],
+            [
+                "",
+                "Check Out Hotéis"
+            ],
+            [
+                "",
+                "🛫09:38 - Decolagem em Las Vegas"
+            ],
+            [
+                "Tarde"
+            ],
+            [
+                "",
+                "🛬 16:30 - Pouso em Atlanta"
+            ],
+            [],
+            [
+                "Noite"
+            ],
+            [
+                "",
+                "🛫 19:00 - Decolagem em Atlanta"
+            ],
+            [],
+            [
+                "Total",
+                "",
+                "$0,00",
+                "$0,00"
+            ]
+        ]
+    },
+    {
+        "range": "'Programação'!AN41:AQ1000",
+        "majorDimension": "ROWS"
+    }
+]

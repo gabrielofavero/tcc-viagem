@@ -1,0 +1,22 @@
+[
+    {
+        "titulo": "Ida",
+        "icone": "bx bxs-plane-take-off",
+        "texto": "13/10"
+    },
+    {
+        "titulo": "Volta",
+        "icone": "bx bxs-plane-land",
+        "texto": "24/10"
+    },
+    {
+        "titulo": "Dias de Turismo",
+        "icone": "bx bxs-sun",
+        "texto": 9
+    },
+    {
+        "titulo": "Dias de Voos",
+        "icone": "bx bxs-plane-alt",
+        "texto": 2
+    }
+]

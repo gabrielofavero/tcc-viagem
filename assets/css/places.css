@@ -1,0 +1,249 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #272829;
+  background: #fff;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  transition: all 0.3s;
+}
+
+strong {
+  color: #3A3838;
+}
+
+a {
+  color: #3d85c6;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #195b96;
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Raleway", sans-serif;
+}
+
+section {
+  padding: 60px 0;
+  overflow: hidden;
+}
+
+.section-title {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.section-title h2 {
+  font-size: 32px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  position: relative;
+  color: #45505b;
+}
+
+.section-title h2::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 120px;
+  height: 1px;
+  background: #ddd;
+  bottom: 1px;
+  left: calc(50% - 60px);
+}
+
+.section-title h2::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 40px;
+  height: 3px;
+  background: #52B71F;
+  bottom: 0;
+  left: calc(50% - 20px);
+}
+
+.section-title p {
+  margin-bottom: 0;
+}
+
+#main-2 {
+  margin: 20px;
+}
+
+#accordion {
+  color: #272829;
+  text-align: center;
+  width: 500px;
+  display: block;
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+.btn {
+  text-decoration: none;
+  font-weight: bold;
+  color: #3A3838;
+}
+
+.btn:hover {
+  color: #3A3838;
+}
+
+#headerP {
+  cursor: pointer;
+}
+
+.card-header {
+  background-color: #F9F9F9;
+  width: 425px;
+  float: left;
+}
+
+.youtube {
+  width: 425px;
+  height: 239.06px;
+}
+
+.tiktok {
+  margin-top: 20px;
+  width: 239.06px;
+  height: 425px;
+}
+
+.spotify {
+  margin-top: 20px;
+  width: 100%;
+  height: 352px;
+}
+
+#money {
+  font-weight: bold;
+  color: #009242;
+  margin: 5px
+}
+
+#title,
+#title-no-link {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+#title {
+  text-decoration: underline;
+}
+
+.subtitle {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.score {
+  color: #404040;
+  width: 73px;
+  float: left;
+  font-weight: bold;
+  font-size: 15px;
+  border-bottom-color: #DADADA;
+  height: 55px;
+  line-height: 55px;
+  text-align: center;
+  border-bottom: 1px solid #DADADA;
+  border-left: 1px solid #DADADA;
+}
+
+#details {
+  font-size: 15px;
+  font-weight: normal;
+  font-style: italic;
+  color: #595959;
+}
+
+.card-body {
+  background: #fff;
+  color: #595959;
+  border-top: 1px solid #DADADA;
+}
+
+.close-button,
+.night-mode-toggle {
+  position: absolute;
+  right: 10px;
+  top: 25px;
+  z-index: 9998;
+  border: 0;
+  background: none;
+  font-size: 28px;
+  transition: all 0.4s;
+  outline: none !important;
+  line-height: 0;
+  cursor: pointer;
+  border-radius: 50px;
+  padding: 5px;
+}
+
+.night-mode-toggle {
+  right: 50px;
+}
+
+.close-button i,
+.night-mode-toggle i {
+  color: #45505B;
+}
+
+#closeButtonIOS,
+#night-mode {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  #main-1 {
+    margin-top: 50px;
+  }
+
+  #accordion {
+    width: 400px;
+  }
+
+  .card-header {
+    width: 325px;
+  }
+
+  .youtube {
+    width: 325px;
+    height: 182.81px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  #accordion {
+    width: 300px;
+  }
+
+  #headerP {
+    white-space: nowrap;
+  }
+
+  .card-header {
+    width: 225px;
+  }
+
+  .youtube {
+    width: 225px;
+    height: 126.56px;
+  }
+
+  .btn {
+    padding-left: none;
+    margin-left: -16px;
+  }
+}

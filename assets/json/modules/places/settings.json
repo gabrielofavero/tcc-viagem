@@ -1,0 +1,36 @@
+{
+    "required": [
+        "Nome",
+        "Nota"
+    ],
+    "translations": {
+        "valor": "$",
+        "visitado": "✔"
+    },
+    "scores": {
+        "knownKeys": [
+            "titulo",
+            "title",
+            "descricao",
+            "veg",
+            "duo",
+            "valor",
+            "visitado",
+            "nota",
+            "hyperlink",
+            "emoji",
+            "regiao",
+            "weed",
+            "video",
+            "novo",
+            "plan."
+        ],
+        "possibleValues": [
+            "!",
+            "1",
+            "2",
+            "3",
+            "4"
+        ]
+    }
+}

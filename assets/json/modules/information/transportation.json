@@ -1,0 +1,23 @@
+{
+    "options": ["ida", "volta"],
+    "texts": ["Voo", "Ônibus", "Carro"],
+    "altTexts": {
+        "voo": ["LATAM", "GOL", "AZUL", "DELTA", "United", "American Airlines"],
+        "onibus": ["Gontijo", "Buser", "Cometa"]
+    },
+    "icons": ["bx bxs-plane-alt", "bx bxs-bus", "bx bxs-car"],
+    "defaultTransportation": {
+        "ida": {
+            "text": "",
+            "icon": "bx bx-rocket"
+        },
+        "volta": {
+            "text": "",
+            "icon": "bx bx-rocket"
+        },
+        "default": {
+            "text": "Dados",
+            "icon": "bx bx-rocket"
+        }
+    }
+}

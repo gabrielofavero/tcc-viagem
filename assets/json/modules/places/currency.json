@@ -1,0 +1,17 @@
+{
+    "R$": {
+        "-": "Gratuito",
+        "$": "R$1 - R$50",
+        "$$": "R$50 - R$100",
+        "$$$": "Mais de R$100!",
+        "default": "Valor Desconhecido"
+    },
+    "$": {
+        "-": "Gratuito",
+        "$": "$1 - $25",
+        "$$": "$26 - $50",
+        "$$$": "$51 - $99",
+        "$$$$": "Mais de $100!",
+        "default": "Valor Desconhecido"
+    }
+}

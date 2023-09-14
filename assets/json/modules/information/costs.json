@@ -1,0 +1,22 @@
+[
+    {
+        "titulo": "Total",
+        "icone": "bx bxs-dollar-circle",
+        "texto": ""
+    },
+    {
+        "titulo": "Passagem",
+        "icone": "bx bxs-plane-alt",
+        "texto": ""
+    },
+    {
+        "titulo": "Hospedagem",
+        "icone": "bx bxs-hotel",
+        "texto": ""
+    },
+    {
+        "titulo": "Dia-A-Dia",
+        "icone": "bx bxs-sun",
+        "texto": ""
+    }
+]
